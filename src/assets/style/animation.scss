@@ -1,0 +1,21 @@
+/* 页面路由动画 */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* loading 动画 */
+.fade-load-enter-active,
+.fade-load-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-load-enter-from,
+.fade-load-leave-to {
+  opacity: 0;
+}
